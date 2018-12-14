@@ -3,7 +3,7 @@ Static generator for ATShop's API documentation.
 
 **Preview:** [docs.atshop.io](https://docs.atshop.io)
 
-## Setup
+## Development Environment Setup
 ##### Clone the repository:
 ```bash
 git clone https://github.com/WcAServices/atshop-docs.git

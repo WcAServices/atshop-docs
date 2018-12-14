@@ -7,6 +7,10 @@ module.exports = {
             {
                 text: 'ATShop',
                 link: 'https://atshop.io/'
+            },
+            {
+                text: 'GitHub',
+                link: require('../../package.json').homepage,
             }
         ]
     }

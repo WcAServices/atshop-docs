@@ -4,8 +4,8 @@
   "description": "ATShop API Documentation",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd src && vuepress dev",
-    "build": "cd src && vuepress build"
+    "start": "cd docs && vuepress dev",
+    "build": "cd docs && vuepress build"
   },
   "repository": {
     "type": "git",

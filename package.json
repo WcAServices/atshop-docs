@@ -17,6 +17,9 @@
     "url": "https://github.com/WcAServices/atshop-docs/issues"
   },
   "homepage": "https://github.com/WcAServices/atshop-docs#readme",
+  "dependencies": {
+    "vuepress-intercom": "^1.0.1"
+  },
   "devDependencies": {
     "vuepress": "^1.0.0-alpha.29"
   }

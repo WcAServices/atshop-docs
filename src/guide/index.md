@@ -8,3 +8,9 @@ For the following guide, we're going to assume you're in a [Node.js](https://nod
 
 If your language of choice lacks any libraries and you would like to build your own DDP client, see the
 [DDP Spec](https://github.com/meteor/meteor/blob/devel/packages/ddp/DDP.md)
+
+---
+
+Relying on DDP does come with a bunch of "nice to have"s both for the development and user experience. 
+Additionally, once a connection is established, communication between the server and client is considerably
+faster compared to your traditional REST API.

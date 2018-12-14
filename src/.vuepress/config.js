@@ -3,6 +3,7 @@ module.exports = {
     description: 'API documentation for ATShop.io',
 
     themeConfig: {
+        search: false,
         nav: [
             {
                 text: 'ATShop',

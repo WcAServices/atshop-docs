@@ -18,8 +18,14 @@ module.exports = {
         ],
 
         sidebar: [
-            '/guide/',
-            '/guide/getting-started'
+            {
+                title: 'Guide',
+                collapsable: false,
+                children: [
+                    '/guide/',
+                    '/guide/getting-started'
+                ]
+            },
         ]
     },
 };

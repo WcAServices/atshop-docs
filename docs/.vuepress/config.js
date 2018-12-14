@@ -8,13 +8,13 @@ module.exports = {
 
         nav: [
             {
+                text: 'GitHub',
+                link: require('../../package.json').homepage,
+            },
+            {
                 text: 'ATShop',
                 link: 'https://atshop.io/'
             },
-            {
-                text: 'GitHub',
-                link: require('../../package.json').homepage,
-            }
         ],
 
         sidebar: [

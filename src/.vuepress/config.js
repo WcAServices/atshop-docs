@@ -15,6 +15,11 @@ module.exports = {
                 text: 'GitHub',
                 link: require('../../package.json').homepage,
             }
+        ],
+
+        sidebar: [
+            '/guide/',
+            '/guide/getting-started'
         ]
     },
 };

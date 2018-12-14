@@ -1,7 +1,7 @@
 # Setting up DDP
 Getting hooked into the API is fairly straightforward.
 
-You'll first need to pull in a DDP library, we recommend [`ddp`](https://www.npmjs.com/package/ddp).
+The following examples will assume you're using the [`ddp`](https://www.npmjs.com/package/ddp) library.
 
 #### Install DDP
 ```bash

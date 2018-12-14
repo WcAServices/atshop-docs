@@ -26,6 +26,13 @@ module.exports = {
                     '/guide/getting-started'
                 ]
             },
+            {
+                title: 'Reference',
+                collapsable: false,
+                children: [
+                    '/reference/orders'
+                ]
+            }
         ]
     },
 };

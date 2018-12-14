@@ -15,3 +15,11 @@ features:
 
 footer: Copyright © ATShop 2018 | support@atshop.io
 ---
+
+<script>
+    export default {
+        mounted() {
+            this.$intercom.boot();        
+        }    
+    }
+</script>

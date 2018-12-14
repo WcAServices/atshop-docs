@@ -2,6 +2,8 @@ module.exports = {
     title: 'ATShop API',
     description: 'API documentation for ATShop.io',
 
+    lastUpdated: 'Last Updated',
+
     themeConfig: {
         search: false,
         nav: [

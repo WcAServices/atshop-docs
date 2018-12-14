@@ -1,12 +1,12 @@
 const DDP = require('ddp');
 
 /* Prepare the client */
-const client = new DDP({
+const DDPClient = new DDP({
     url: 'wss://atshop.io/websocket',
 });
 
 /* Connect to the server */
-client.connect((err, reconnected) => {
+DDPClient.connect((err, reconnected) => {
     if (err) {
         throw err;
     }

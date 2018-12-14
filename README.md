@@ -12,9 +12,9 @@ git clone https://github.com/WcAServices/atshop-docs.git
 ```bash
 npm install
 ``` 
-##### Run
+##### Start
 ```bash
-npm run
+npm start
 ```
 
 ## Requirements

@@ -2,6 +2,10 @@ module.exports = {
     title: 'ATShop API',
     description: 'API documentation for ATShop.io',
 
+    plugins: [
+        [require('vuepress-intercom'), { appId: 'msak0o3q' }]
+    ],
+
     themeConfig: {
         search: false,
         lastUpdated: 'Last Updated',

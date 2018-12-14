@@ -1,4 +1,4 @@
-# Getting Started
+# Introduction
 The ATShop API is currently available only through WebSockets. REST endpoints are still a work in process.
 
 We rely on Meteor's DDP protocol for data transfer and method calls. Depending on your programming language of choice,

@@ -2,10 +2,10 @@ module.exports = {
     title: 'ATShop API',
     description: 'API documentation for ATShop.io',
 
-    lastUpdated: 'Last Updated',
-
     themeConfig: {
         search: false,
+        lastUpdated: 'Last Updated',
+
         nav: [
             {
                 text: 'ATShop',
@@ -16,5 +16,5 @@ module.exports = {
                 link: require('../../package.json').homepage,
             }
         ]
-    }
+    },
 };

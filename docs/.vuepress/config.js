@@ -35,6 +35,13 @@ module.exports = {
                 children: [
                     '/reference/methods/orders'
                 ]
+            },
+            {
+                title: 'Publications',
+                collapsable: false,
+                children: [
+                    '/reference/publications/orders'
+                ]
             }
         ]
     },

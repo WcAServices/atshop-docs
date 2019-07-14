@@ -30,10 +30,10 @@ module.exports = {
                 ]
             },
             {
-                title: 'Reference',
+                title: 'Methods',
                 collapsable: false,
                 children: [
-                    '/reference/orders'
+                    '/reference/methods/orders'
                 ]
             }
         ]

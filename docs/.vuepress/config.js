@@ -40,7 +40,8 @@ module.exports = {
                 title: 'Publications',
                 collapsable: false,
                 children: [
-                    '/reference/publications/orders'
+                    '/reference/publications/orders',
+                    '/reference/publications/products',
                 ]
             }
         ]

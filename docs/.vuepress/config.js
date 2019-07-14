@@ -26,7 +26,8 @@ module.exports = {
                 collapsable: false,
                 children: [
                     '/guide/',
-                    '/guide/setting-up-ddp'
+                    '/guide/setting-up-ddp',
+                    '/guide/authentication',
                 ]
             },
             {

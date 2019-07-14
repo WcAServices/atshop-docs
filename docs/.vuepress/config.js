@@ -43,6 +43,7 @@ module.exports = {
                 children: [
                     '/reference/publications/orders',
                     '/reference/publications/products',
+                    '/reference/publications/stock',
                 ]
             }
         ]

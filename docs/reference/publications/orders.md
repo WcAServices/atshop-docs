@@ -63,7 +63,7 @@ orderObserver.added = (_id) => {
     // You should find that DDPClient.collections['shop.orders'] has updated with the new order.
     DDPClient.collections['shop.orders'].forEach((order) => {
         if (order._id === _id) {
-            console.log('Located order:', order);        
+            console.log('Located new order:', order);        
         }
     });
 }

@@ -1,4 +1,5 @@
 # Authentication
+> Authentication is fully optional unless you need to perform an action that specifically asks for authorization.
 
 While most API actions can be performed without any form of authentication, certain actions that involve modification
 or access to sensitive information require you to authorize yourself.

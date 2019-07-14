@@ -14,7 +14,7 @@ See the [authentication guide](/guide/authentication.md) for more information.
 const query = {
     shopId: 'your-shop-id-here', // Your shop ID (REQUIRED)
 
-    paid: true, // Whether or not to only fetch paid orders. (optional)
+    paid: true, // Whether you want to fetch paid or non-paid orders only. Leave undefined for both paid and non-paid. (optional)
     status: 'completed', // Fetch orders with a certain fulfillment status. (optional)
     productId: 'some-product-id', // Fetch orders only for the given product. (optional)    
     email: 'jane@doe.com', // Fetch orders only from the given customer email. (optional)

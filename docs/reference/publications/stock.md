@@ -14,9 +14,9 @@ DDPClient.subscribe('order.items', [orderId], () => {
     const soldStock =  DDPClient.collections['shop.product.stock'];
     
     soldStock.forEach((item) => {
-        item._id // ID of the stock entry
-        item.entry // line-item for the stock entry. This is what is displayed to the customer
-        item.orderId // Order ID this stock item is attached to
+        item._id // ID of the stock entry.
+        item.entry // Line-item for the stock entry. This is what is displayed to the customer.
+        item.orderId // Order ID this stock item is attached to.
     });
 })
 ```

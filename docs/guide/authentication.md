@@ -2,10 +2,8 @@
 > Authentication is fully optional - unless you need to perform an action that specifically asks for authorization.
 
 While most API actions can be performed without any form of authentication, certain actions that involve modification
-or access to sensitive information require you to authorize yourself.
-
-Certain methods and publications (normally prefixed with `admin.`) require administrative privileges for the
-associated shop.
+or access to sensitive information require you to authorize yourself. These methods and publications are normally
+prefixed with `admin.` and require administrative permissions for the associated shop. 
 
 ## Fetching your login token
 Head over to [atshop.io](https://atshop.io) and login. Once logged in, open up your browser's developer console and

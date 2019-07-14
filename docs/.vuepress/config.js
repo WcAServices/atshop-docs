@@ -8,7 +8,6 @@ module.exports = {
 
     themeConfig: {
         search: false,
-        lastUpdated: 'Last Updated',
 
         nav: [
             {

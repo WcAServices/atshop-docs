@@ -52,7 +52,8 @@ DDPClient.subscribe('admin.orders', [query, options], () => {
 
 ## Watch for incoming orders
 Assuming you have an active `'admin.orders'` subscription as described above, you can watch for changes to your query
- results using the [`ddp`](https://www.npmjs.com/package/ddp) `observe()` method. 
+results using the [`ddp`](https://www.npmjs.com/package/ddp) `observe()` method. This is also assuming that the
+created order matches your query options defined above.
 ```js
 const orderObserver = DDPClient.observe('shop.orders');
 

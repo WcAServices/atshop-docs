@@ -2,7 +2,7 @@ const shopId = 'your-shop-ID';
 
 const productGroup = {
     shopId: shopId, // Your Shop ID
-    name: 'My Product Group',
+    name: 'My Product Group', // Give this product group a name.
     description: '', // Markdown supported.
     style: 'card', // Product card style. Can be 'dynamic', 'box', or 'card'.
     image_url: '', // URI to product group image.

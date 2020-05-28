@@ -36,6 +36,7 @@ module.exports = {
                 children: [
                     '/reference/methods/orders',
                     '/reference/methods/products',
+                    '/reference/methods/product-groups',
                 ]
             },
             {

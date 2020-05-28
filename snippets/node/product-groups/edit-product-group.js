@@ -4,7 +4,7 @@ const productGroupId = 'ID-of-the-group-you-want-to-edit';
 const productGroup = {
     _id: productGroupId, // The product group you want to edit.
     shopId: shopId, // Your Shop ID
-    name: 'My Product Group',
+    name: 'My Product Group', // Add a name for your product group.
     description: '', // Markdown supported.
     style: 'card', // Product card style. Can be 'dynamic', 'box', or 'card'.
     image_url: '', // URI to product group image.

@@ -1,7 +1,8 @@
 const shopId = 'your-shop-ID';
+const productId = 'product-you-want-to-edit';
 
 const product = {
-    _id: 'the-product-you-want-to-edit', // ID of the product you want to update with the following settings.
+    _id: productId, // ID of the product you want to update with the following settings.
     shopId: shopId, // Your Shop ID
     name: 'My Product',
     description: '', // Supports markdown.

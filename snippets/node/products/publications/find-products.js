@@ -6,8 +6,8 @@ const query = {
 }
 
 const options = {
-    limit: 50, // Maximum number of orders to fetch at one time. (optional)
-    skip: 0,   // Number of orders to skip. (optional)
+    limit: 50, // Maximum number of products to fetch at one time. (optional)
+    skip: 0,   // Number of products to skip. (optional)
     sort: {
         createdAt: -1, // Sort direction. (optional)
                        // -1 = descending

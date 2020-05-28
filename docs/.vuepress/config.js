@@ -46,6 +46,7 @@ module.exports = {
                     '/reference/publications/orders',
                     '/reference/publications/products',
                     '/reference/publications/stock',
+                    '/reference/publications/product-groups',
                 ]
             }
         ]

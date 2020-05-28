@@ -34,7 +34,8 @@ module.exports = {
                 title: 'Methods',
                 collapsable: false,
                 children: [
-                    '/reference/methods/orders'
+                    '/reference/methods/orders',
+                    '/reference/methods/products',
                 ]
             },
             {

@@ -37,6 +37,7 @@ module.exports = {
                     '/reference/methods/orders',
                     '/reference/methods/products',
                     '/reference/methods/product-groups',
+                    '/reference/methods/stock',
                 ]
             },
             {

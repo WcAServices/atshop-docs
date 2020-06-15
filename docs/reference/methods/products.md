@@ -11,3 +11,6 @@ See the [authentication guide](/guide/authentication.md) for more information.
 
 ## Edit a product
 <<< ../snippets/node/products/edit-product.js
+
+## Remove a product
+<<< ../snippets/node/products/remove-product.js

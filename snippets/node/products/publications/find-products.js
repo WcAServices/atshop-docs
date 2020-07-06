@@ -1,8 +1,7 @@
 const shopId = 'ID-of-your-shop';
 
-const query = {
-    shopId: shopId, // Your Shop ID.
-    search: 'Steam Keys', // Search by product name
+const query = {             // optional
+    search: 'Steam Keys',   // Search by product name
 }
 
 const options = {
@@ -15,6 +14,6 @@ const options = {
     }
 }
 
-DDPClient.subscribe('admin.shop.products', [query, options], () => {
+DDPClient.subscribe('admin.shop.products', [shopId, query, options], () => {
     const products = DDPClient.collections['shop.products']; // Array of product objects.
 })

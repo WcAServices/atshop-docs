@@ -35,6 +35,9 @@ const orderId = request.query.orderId;
 const order = await HTTP.get(`https://i-api.atshop.io/shop/orders/${orderId}`);
 const product = await HTTP.get(`https://i-api.atshop.io/shop/products/${order.productId}`);
 
+/**
+ * An integer in US cents representing how much the customer should pay for this order. 
+ */
 const value = order.toPay || Math.round(order.quantity * product.value);
 ```
 The above example uses our experimental REST API for the sake of simplicity. It is however recommended that you utilize

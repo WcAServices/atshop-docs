@@ -28,6 +28,7 @@ module.exports = {
                     '/guide/',
                     '/guide/setting-up-ddp',
                     '/guide/authentication',
+                    '/guide/custom-gateways',
                 ]
             },
             {

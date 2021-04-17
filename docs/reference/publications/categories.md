@@ -1,4 +1,4 @@
 # Categories
 
 ## Find all categories
-<<< ../snippets/node/categories/publications.js
+<<< ../snippets/node/categories/publications/get-categories.js

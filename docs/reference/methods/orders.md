@@ -9,3 +9,6 @@ completing the order and in turn sending the ordered items to the customer. Do n
 administrative privileges over your shop. See [the authentication section](/guide/authentication.md) for more info.
 
 <<< ../snippets/node/orders/fulfill-order.js
+
+## Issue a replacement for a fulfilled order
+<<< ../snippets/node/replacements/issue-replacement.js

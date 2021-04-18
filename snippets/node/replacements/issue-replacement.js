@@ -3,7 +3,7 @@ const shopId = 'cba123'; // The 'shopId' field of the order you're issuing a rep
 const quantity = 5; // Number of items to send to customer as replacements.
 const note = 'Products were non-functioning at arrival.'; // (max 255 characters)
 
-DDPClient.call('admin.orders.replace', [orderId, quantity, note], (err, resp) => {
+DDPClient.call('admin.orders.replace', [shopId, orderId, quantity, note], (err, resp) => {
     if (err) {
         return console.error(err);
     }

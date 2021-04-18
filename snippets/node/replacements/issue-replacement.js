@@ -8,5 +8,5 @@ DDPClient.call('admin.orders.replace', [shopId, orderId, quantity, note], (err, 
         return console.error(err);
     }
 
-    console.log('Successfully issued %d replacement items for order no. %s./nNote: %s', quantity, orderId, note);
+    console.log('Successfully issued %d replacement items for order no. %s.\nNote: %s', quantity, orderId, note);
 });

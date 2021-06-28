@@ -3,7 +3,8 @@
 ## Custom Gateway Listener
 ::: tip Enterprise Only
 Only Enterprise merchants can set up and utilize custom payment gateways. Please [contact us](mailto:support@atshop.io)
-to upgrade to Enterprise.
+to upgrade to Enterprise. If you are already an Enterprise customer and don't see a "Custom" gateway tab in your gateway
+settings, please contact us and we'll enable the gateway for you.
 :::
 
 ### Your REST API

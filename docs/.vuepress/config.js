@@ -50,6 +50,7 @@ module.exports = {
                     '/reference/publications/stock',
                     '/reference/publications/product-groups',
                     '/reference/publications/categories',
+                    '/reference/publications/replacements',
                 ]
             }
         ]

@@ -22,6 +22,10 @@ DDPClient.subscribe('order.items', [orderId], () => {
 ```
 
 ## Fetch stock from a replacement
+Stock originally issued with a fulfilled order and any replacements are separated resources.
+This means any replacements you may have issued, will not appear as sold stock, but rather replaced stock.
+
+Be sure to filter your `'shop.product.stock'` collection down to each replacement you're working with.
 ```js
 const replacementId = '...';
 
@@ -34,3 +38,4 @@ DDPClient.subscribe('order.replacement.items', [replacementId], () => {
     }))
 })
 ```
+You can retrieve replacement IDs from the [`'order.replacements'`](/reference/publications/replacements.md) publication.

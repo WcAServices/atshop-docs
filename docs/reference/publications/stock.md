@@ -20,3 +20,17 @@ DDPClient.subscribe('order.items', [orderId], () => {
     });
 })
 ```
+
+## Fetch stock from a replacement
+```js
+const replacementId = '...';
+
+DDPClient.subscribe('order.replacement.items', [replacementId], () => {
+    const replacedStock = DDPClient.collections['shop.product.stock'];
+    
+    replacedStock.forEach(({ entry, replacementId }) => console.log({
+        replacementId,
+        entry,
+    }))
+})
+```

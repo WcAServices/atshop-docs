@@ -22,4 +22,4 @@ DDPClient.subscribe('order.replacements', [orderId], () => {
 You can use replacement IDs (`_id`) to retrieve the additional stock that was attached to the customer's order.
 
 ### Read more
-- [Retrieve replaced stock](/reference/publications/stock.md)
+- [Retrieve replaced stock](/reference/publications/stock.md#fetch-stock-from-a-replacement)

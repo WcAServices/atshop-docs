@@ -39,6 +39,7 @@ module.exports = {
                     '/reference/methods/products',
                     '/reference/methods/product-groups',
                     '/reference/methods/stock',
+                    '/reference/methods/coupons',
                 ]
             },
             {
@@ -51,6 +52,7 @@ module.exports = {
                     '/reference/publications/product-groups',
                     '/reference/publications/categories',
                     '/reference/publications/replacements',
+                    '/reference/publications/coupons',
                 ]
             }
         ]
